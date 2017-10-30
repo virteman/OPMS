@@ -3,9 +3,9 @@ package albums
 import (
 	"fmt"
 	"io"
-	"opms/controllers"
-	. "opms/models/albums"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/albums"
+	"github.com/virteman/OPMS/utils"
 	"os"
 	"strconv"
 	"strings"

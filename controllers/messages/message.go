@@ -2,9 +2,9 @@ package messages
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/messages"
-	//"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/messages"
+	//"github.com/virteman/OPMS/utils"
 	//"strconv"
 	"strings"
 	//"time"

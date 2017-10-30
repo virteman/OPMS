@@ -2,9 +2,9 @@ package groups
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/groups"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/groups"
+	"github.com/virteman/OPMS/utils"
 	"strconv"
 	"strings"
 

@@ -2,10 +2,10 @@ package albums
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/albums"
-	. "opms/models/messages"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/albums"
+	. "github.com/virteman/OPMS/models/messages"
+	"github.com/virteman/OPMS/utils"
 )
 
 type AddCommentController struct {

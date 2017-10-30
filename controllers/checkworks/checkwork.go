@@ -3,9 +3,9 @@ package checkworks
 import (
 	"fmt"
 
-	"opms/controllers"
-	. "opms/models/checkworks"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/checkworks"
+	"github.com/virteman/OPMS/utils"
 	//"os"
 	//"strconv"
 	"strings"

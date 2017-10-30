@@ -2,11 +2,11 @@ package overtimes
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/messages"
-	. "opms/models/overtimes"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/messages"
+	. "github.com/virteman/OPMS/models/overtimes"
+	. "github.com/virteman/OPMS/models/users"
+	"github.com/virteman/OPMS/utils"
 	"strconv"
 	"strings"
 

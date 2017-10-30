@@ -2,11 +2,11 @@ package oagoods
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/messages"
-	. "opms/models/oagoods"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/messages"
+	. "github.com/virteman/OPMS/models/oagoods"
+	. "github.com/virteman/OPMS/models/users"
+	"github.com/virteman/OPMS/utils"
 	"os"
 	"strconv"
 	"strings"

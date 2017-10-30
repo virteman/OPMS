@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	//"opms/initial"
+	//"github.com/virteman/OPMS/initial"
 
 	"fmt"
-	. "opms/models/groups"
-	. "opms/models/messages"
+	. "github.com/virteman/OPMS/models/groups"
+	. "github.com/virteman/OPMS/models/messages"
 	"strconv"
 	"strings"
 

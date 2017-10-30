@@ -2,10 +2,10 @@ package projects
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/projects"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/projects"
+	. "github.com/virteman/OPMS/models/users"
+	"github.com/virteman/OPMS/utils"
 	"strconv"
 	"strings"
 )

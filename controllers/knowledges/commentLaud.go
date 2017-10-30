@@ -2,10 +2,10 @@ package knowledges
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/knowledges"
-	. "opms/models/messages"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/knowledges"
+	. "github.com/virteman/OPMS/models/messages"
+	"github.com/virteman/OPMS/utils"
 )
 
 type AddCommentController struct {

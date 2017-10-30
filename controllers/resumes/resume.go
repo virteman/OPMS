@@ -2,9 +2,9 @@ package resumes
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/resumes"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/resumes"
+	"github.com/virteman/OPMS/utils"
 	"os"
 	"strconv"
 	"strings"

@@ -1,7 +1,7 @@
 package albums
 
 import (
-	"opms/models"
+	"github.com/virteman/OPMS/models"
 	"time"
 
 	"github.com/astaxie/beego"

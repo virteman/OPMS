@@ -2,8 +2,8 @@ package users
 
 import (
 	"fmt"
-	"opms/models"
-	"opms/utils"
+	"github.com/virteman/OPMS/models"
+	"github.com/virteman/OPMS/utils"
 	//"sort"
 	"strings"
 

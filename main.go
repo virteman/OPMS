@@ -1,20 +1,32 @@
 package main
 
 import (
+	_ "github.com/virteman/OPMS/initial"
+	"github.com/virteman/OPMS/models"
+	_ "github.com/virteman/OPMS/routers"
 	"html/template"
 	"net/http"
-	_ "opms/initial"
-	_ "opms/routers"
+	"os"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 )
 
 func main() {
+	initArgs()
 	beego.InsertFilter("/*", beego.BeforeRouter, FilterUser)
 	beego.ErrorHandler("404", page_not_found)
 	beego.ErrorHandler("401", page_note_permission)
 	beego.Run()
+}
+func initArgs() {
+	args := os.Args
+	for _, v := range args {
+		if v == "-syncdb" {
+			models.Syncdb()
+			os.Exit(0)
+		}
+	}
 }
 
 var FilterUser = func(ctx *context.Context) {

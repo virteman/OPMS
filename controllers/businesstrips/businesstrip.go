@@ -2,11 +2,11 @@ package businesstrips
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/businesstrips"
-	. "opms/models/messages"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/businesstrips"
+	. "github.com/virteman/OPMS/models/messages"
+	. "github.com/virteman/OPMS/models/users"
+	"github.com/virteman/OPMS/utils"
 	"os"
 	"strconv"
 	"strings"

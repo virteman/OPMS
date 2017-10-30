@@ -2,9 +2,9 @@ package projects
 
 import (
 	"fmt"
-	"opms/models"
-	"opms/models/users"
-	"opms/utils"
+	"github.com/virteman/OPMS/models"
+	"github.com/virteman/OPMS/models/users"
+	"github.com/virteman/OPMS/utils"
 	"time"
 
 	"github.com/astaxie/beego"

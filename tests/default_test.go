@@ -3,7 +3,7 @@ package test
 import (
 	"net/http"
 	"net/http/httptest"
-	_ "opms/routers"
+	_ "github.com/virteman/OPMS/routers"
 	"path/filepath"
 	"runtime"
 	"testing"

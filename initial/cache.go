@@ -1,7 +1,7 @@
 package initial
 
 import (
-	"opms/utils"
+	"github.com/virteman/OPMS/utils"
 )
 
 func InitCache() {

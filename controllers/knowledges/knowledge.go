@@ -2,9 +2,9 @@ package knowledges
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/knowledges"
-	"opms/utils"
+	"github.com/virteman/OPMS/controllers"
+	. "github.com/virteman/OPMS/models/knowledges"
+	"github.com/virteman/OPMS/utils"
 	"strconv"
 	"strings"
 
